@@ -23,8 +23,10 @@ def ask_bid(symbol=symbol):
   
   bid = ob['bids'][0][0]
   ask = ob['asks'][0][0]
-  print(f'this is the ask for APE {ask}')
+  print(f'this is the ask for {symbol} {ask}')
   
   return ask, bid
 
 ask_bid()
+
+# def daily_sma();
